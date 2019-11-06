@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings
-    name='Measurements',
+    name='test_r4',
     url='https://github.com/WengWeiHsiang/package_demo',
     author='weng',
     author_email='weng@ares.com.tw',
     # Needed to actually package something
-    packages=['measure'],
+    packages=['measure', 'closed_form'],
     # Needed for dependencies
     install_requires=['numpy'],
     # *strongly* suggested for sharing
