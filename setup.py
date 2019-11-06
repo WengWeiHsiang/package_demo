@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings
-    name='testR4',
+    name='test-r4',
     url='https://github.com/WengWeiHsiang/package_demo',
     author='weng',
     author_email='weng@ares.com.tw',
