@@ -7,7 +7,7 @@ setup(
     author='weng',
     author_email='weng@ares.com.tw',
     # Needed to actually package something
-    packages=['measure', 'closed_form'],
+    packages=['test_r4', 'measure', 'closed_form'],
     # Needed for dependencies
     install_requires=['numpy'],
     # *strongly* suggested for sharing
