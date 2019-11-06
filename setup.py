@@ -3,9 +3,9 @@ from setuptools import setup
 setup(
     # Needed to silence warnings
     name='Measurements',
-    url='https://github.com/jladan/package_demo',
-    author='John Ladan',
-    author_email='jladan@uwaterloo.ca',
+    url='https://github.com/WengWeiHsiang/package_demo',
+    author='weng',
+    author_email='weng@ares.com.tw',
     # Needed to actually package something
     packages=['measure'],
     # Needed for dependencies
@@ -15,7 +15,7 @@ setup(
     license='MIT',
     description='An example of a python package from pre-existing code',
     # We will also need a readme eventually (there will be a warning)
-    long_description=open('README.rst').read(),
+    # long_description=open('README.rst').read(),
     # if there are any scripts
     scripts=['scripts/hello.py'],
 )
